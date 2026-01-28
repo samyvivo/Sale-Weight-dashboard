@@ -13,7 +13,7 @@ st.set_page_config(page_title="Sales Data Analysis", layout="wide", page_icon="ð
 st.title("ðŸ“Š Sales Data Analysis Dashboard")
 
 # File path - UPDATE THIS WITH YOUR ACTUAL FILE PATH
-EXCEL_FILE_PATH = r"C:\Users\s.zeitounian\Desktop\online\Sales Data Table.xlsx"
+EXCEL_FILE_PATH = r"https://raw.githubusercontent.com/samyvivo/Sale-Weight-dashboard/refs/heads/main/online.csv?token=GHSAT0AAAAAADUHBSJCW7ZUSIFQ34C2IYO42L2CTKQ"
 
 # Logistic cost constant (IRR per gram)
 LOGISTIC_COST_PER_GRAM = 400
@@ -977,3 +977,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
