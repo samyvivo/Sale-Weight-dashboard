@@ -383,7 +383,7 @@ def load_and_process_data():
     """Load and process the Excel data from file path"""
     try:
         # Read the Excel file directly from the path
-        df = pd.read_excel(EXCEL_FILE_PATH)
+        df = pd.read_csv(EXCEL_FILE_PATH)
         st.success(f"✅ Data loaded successfully")
     except Exception as e:
         st.error(f"❌ Error reading file: {e}")
@@ -977,5 +977,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
